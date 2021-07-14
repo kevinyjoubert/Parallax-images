@@ -101,31 +101,31 @@
 /* container background - photos */
 
     #home {
-        background: url(../background/overlay.png), url(../background/bg1.jpg);
+        background: url(../images/background/overlay.png), url(../images/background/bg1.jpg);
     }
 
     #one {
-        background: url(../background/overlay.png), url(../background/bg2.jpg);
+        background: url(../images/background/overlay.png), url(../images/background/bg2.jpg);
     }
 
     #one1 {
-        background: url(../background/overlay.png), url(../background/bg3.jpg);
+        background: url(../images/background/overlay.png), url(../images/background/bg3.jpg);
     }
 
     #one2 {
-        background: url(../background/overlay.png), url(../background/bg4.jpg);
+        background: url(../images/background/overlay.png), url(../images/background/bg4.jpg);
     }
 
     #two {
-        background: url(../background/overlay.png), url(../background/bg5.jpg);
+        background: url(../images/background/overlay.png), url(../images/background/bg5.jpg);
     }
 
     #two1 {
-        background: url(../background/overlay.png), url(../background/bg6.jpg);
+        background: url(../images/background/overlay.png), url(../images/background/bg6.jpg);
     }
 
     #two2 {
-        background: url(../background/overlay.png), url(../background/bg7.jpg);
+        background: url(../images/background/overlay.png), url(../images/background/bg7.jpg);
     }
 
         #home,
