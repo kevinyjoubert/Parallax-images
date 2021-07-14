@@ -263,3 +263,35 @@
             .arrow-3 {
                 animation-delay: .95s;
             }
+
+
+/* fields - contact */
+
+    .fields {
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 1em;
+        top: 2em;
+        position: relative;
+    }
+        .field,
+        .field-submit {
+            margin: .3em 0;
+            border-radius: 5px;
+        }
+            .field {
+                border: 2px solid rgb(185, 185, 185);
+                padding: 7px;
+            }
+                .field:focus {
+                    color: rgb(167, 164, 164);
+                    border: 2px solid rgb(72, 148, 148);
+                    outline: none;
+                }
+        .field-submit {
+            padding: 10px 0;
+            border: none;
+            color: #ffffff;
+            background-color: rgb(31, 127, 139);
+            margin-bottom: 10em;
+        }
