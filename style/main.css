@@ -112,9 +112,14 @@
         background: url(../background/overlay.png), url(../background/bg3.jpg);
     }
 
+    #one2 {
+        background: url(../background/overlay.png), url(../background/bg4.jpg);
+    }
+
         #home,
         #one,
-        #one1 {
+        #one1,
+        #one2 {
             background-repeat: repeat, no-repeat;
             background-size: 256px 256px, cover;
             background-position: top left, center bottom;
@@ -126,6 +131,10 @@
 
             #one1 {
                 background-position: top left, center 88%;
+            }
+
+            #one2 {
+                background-position: top left, center 50%;
             }
 
 
