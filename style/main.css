@@ -33,6 +33,7 @@
 
     body, html {
         font-family: 'Indie Flower', cursive;
+        -webkit-text-size-adjust: 100%;
         height: 100vh;
         width: 100vw;
         scrollbar-width: none;
@@ -185,7 +186,9 @@
     }
         #gallery {
             display: grid;
+                display: -ms-grid;
             grid-template-columns: repeat(2, 1fr);
+                -ms-grid-columns: repeat(2, 1fr);
         }
 
 /* box models - format of box in page */
