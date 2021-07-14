@@ -168,6 +168,7 @@
 /* box models - format of box in page */
 
     .box-center,
+    .box-top,
     .box-right,
     .box-left {
         position: absolute;
@@ -180,6 +181,11 @@
             width: calc(100% / 1.5);
             color: #fff;
             bottom: 10em;
+        }
+
+        .box-top {
+            width: 40em;
+            top: 1.5em;
         }
 
         .box-right,
