@@ -31,12 +31,16 @@
 
 /* general format */
 
-    body {
+    body, html {
         font-family: 'Indie Flower', cursive;
         height: 100vh;
+        width: 100vw;
         scrollbar-width: none;
         scroll-behavior: smooth;
     }
+        body::-webkit-scrollbar {
+            width: 0;
+        }
 
 
 /* Header */
@@ -58,6 +62,10 @@
             left: 1em;
         }
 
+        #header nav ul li {
+            font-size: .9em;
+        }
+
 
     nav {
         position: absolute;
@@ -76,9 +84,6 @@
                     text-decoration: none;
                     padding: 0 .3em;
                 }
-        #header nav ul li {
-            font-size: .9em;
-        }
 
 
 /* container - made all elements in a single page */
