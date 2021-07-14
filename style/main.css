@@ -116,10 +116,15 @@
         background: url(../background/overlay.png), url(../background/bg4.jpg);
     }
 
+    #two {
+        background: url(../background/overlay.png), url(../background/bg5.jpg);
+    }
+
         #home,
         #one,
         #one1,
-        #one2 {
+        #one2,
+        #two {
             background-repeat: repeat, no-repeat;
             background-size: 256px 256px, cover;
             background-position: top left, center bottom;
@@ -137,6 +142,10 @@
                 background-position: top left, center 50%;
             }
 
+            #two {
+                background-position: top left, center 45%;
+            }
+
 
 /* box models - format of box in page */
 
@@ -150,14 +159,15 @@
         letter-spacing: .075em;
     }
         .box-center {
+            width: calc(100% / 1.5);
             color: #fff;
             bottom: 10em;
         }
 
         .box-right,
         .box-left {
-            color: inherit;
             width: calc(100% / 3);
+            color: inherit;
         }
             .box-right {
                 right: 0;
