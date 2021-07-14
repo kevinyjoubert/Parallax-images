@@ -120,11 +120,16 @@
         background: url(../background/overlay.png), url(../background/bg5.jpg);
     }
 
+    #two1 {
+        background: url(../background/overlay.png), url(../background/bg6.jpg);
+    }
+
         #home,
         #one,
         #one1,
         #one2,
-        #two {
+        #two,
+        #two1 {
             background-repeat: repeat, no-repeat;
             background-size: 256px 256px, cover;
             background-position: top left, center bottom;
@@ -144,6 +149,10 @@
 
             #two {
                 background-position: top left, center 45%;
+            }
+
+            #two1 {
+                background-position: top left, center 80%;
             }
 
 
