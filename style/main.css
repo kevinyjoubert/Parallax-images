@@ -104,29 +104,54 @@
         background: url(../background/overlay.png), url(../background/bg1.jpg);
     }
 
-        #home {
+    #one {
+        background: url(../background/overlay.png), url(../background/bg2.jpg);
+    }
+
+        #home,
+        #one {
             background-repeat: repeat, no-repeat;
             background-size: 256px 256px, cover;
             background-position: top left, center bottom;
             background-attachment: fixed, fixed;
         }
+            #one {
+                background-position: top left, center left;
+            }
 
 
 /* box models - format of box in page */
 
-    .box-center {
+    .box-center,
+    .box-right,
+    .box-left {
         position: absolute;
-        bottom: 10em;
         font-size: 1.2em;
         text-align: center;
-        color: #fff;
         font-weight: 800;
-        letter-spacing: .045em;
+        letter-spacing: .075em;
     }
-        #home > .box-center > p > strong:nth-child(2) {
-            font-size: 1.7em;
-            margin-left: .2em;
+        .box-center {
+            color: #fff;
+            bottom: 10em;
         }
+
+        .box-right,
+        .box-left {
+            color: inherit;
+            width: calc(100% / 3);
+        }
+            .box-right {
+                right: 0;
+            }
+            .box-left {
+                left: 0;
+            }
+
+            #home > .box-center > p > strong:nth-child(2) {
+                font-size: 1.7em;
+                margin-left: .2em;
+            }
 
     h2 {
         font-size: 4.25em;
