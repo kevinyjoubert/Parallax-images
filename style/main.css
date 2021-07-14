@@ -1,0 +1,74 @@
+/* fonts */
+
+    @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+/* general format */
+
+    body {
+        font-family: 'Indie Flower', cursive;
+        height: 100%;
+        scrollbar-width: none;
+        scroll-behavior: smooth;
+    }
+
+
+/* Header */
+
+    #header {
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        width: 100%;
+        height: 3em;
+        line-height: 3em;
+        background-color: rgba(255, 255, 255, .70);
+        box-shadow: 0 0 .75em .75em rgba(0, 0, 0, .9);
+    }
+        #header h1 {
+            position: absolute;
+            margin: 0;
+            font-size: 1.2em;
+            left: 1em;
+        }
+
+
+    nav {
+        position: absolute;
+        top: 0;
+        right: .5em;
+    }
+        nav ul {
+            margin: 0;
+        }
+            nav ul li {
+                display: inline-block;
+                margin-left: .5em;
+            }
+                nav ul li a {
+                    color: inherit;
+                    text-decoration: none;
+                    padding: 0 .3em;
+                }
+        #header nav ul li {
+            font-size: .9em;
+        }
+
+
+/* container - made all elements in a single page */
+
+        .container {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+/* container background - photos */
+
+        #home {
+            background: url(../background/overlay.png), url(../background/bg1.jpg);
+        }
