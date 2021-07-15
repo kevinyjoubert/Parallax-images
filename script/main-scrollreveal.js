@@ -1,22 +1,15 @@
 // reset all element inside page
 
-//     ScrollReveal().reveal(
-//         `   .box-center,
-//             .box-right,
-//             .box-left,
-//             #three h2,
-//             #three p`,
+     ScrollReveal().reveal(
+          ` h2,
+            p`,
 
-//         {   reset:true,
-//             origin: 'top',
-//             distance: '150px',
-//             duration: 900,
-//             rotate: {
-//                 z: 7
-//             },
-//             scale: 1.5,
-//             delay: 500      }
-// );
+         {   reset:true,
+             origin: 'top',
+             distance: '150px',
+             duration: 900,
+             delay: 500      }
+ );
 
 
 // reset gallery images - left
